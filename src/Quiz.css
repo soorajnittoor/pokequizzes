@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Pokemon Solid', sans-serif;
+}
+
+.quiz-container {
+  text-align: center;
+  padding: 20px;
+  color: #FFCC00; /* yellow text */
+}
+
+.quiz-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #003399;
+}
+
+.sprite-container {
+  margin: 20px;
+}
+
+.pokemon-sprite {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.silhouette {
+  filter: brightness(0%) contrast(1000%);
+}
+
+input[type='text'] {
+  padding: 10px;
+  border: 2px solid #003399;
+  background-color: #e0f0ff;
+  color: #000;
+  font-size: 16px;
+  width: 250px;
+  border-radius: 6px;
+}
+
+.button-container {
+  margin-top: 15px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+.incorrect-text {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.score-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
